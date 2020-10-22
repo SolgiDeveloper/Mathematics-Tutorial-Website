@@ -1,0 +1,58 @@
+/* * {
+  margin: 0;
+} */
+
+#header {
+  width: 95%;
+  height: 70px;
+  border: 0.5px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+h1 a {
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: 500;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+#searchBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  background: linear-gradient(blueviolet, rgb(162, 43, 150));
+  border-radius: 10px;
+}
+
+#form {
+  padding: 15px;
+}
+
+.text {
+  height: 25px;
+  outline: none;
+  color: blueviolet;
+  padding: 2px;
+  margin-right: 5px;
+  border-color: cyan;
+  border-radius: 5px;
+  background: white url(/Mathematics\ Tutorial\ Website/images/search.png) right center no-repeat;
+}
+
+.submit {
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 4px;
+  outline: none;
+
+  color: cyan;
+  background: rgb(6, 46, 2);
+  border-radius: 5px;
+
+}
