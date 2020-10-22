@@ -215,5 +215,6 @@ h1 a {
   margin-top: 3px;
   padding-top: 15px;
   border-radius: 10px;
+  font-family: sans-serif;
   background: linear-gradient(rgb(60, 113, 6), rgb(255, 255, 255));
 }
