@@ -1,16 +1,22 @@
-/* * {
+* {
   margin: 0;
-} */
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #header {
   width: 95%;
   height: 70px;
-  border: 0.5px solid black;
+  /* border: 0.5px solid black; */
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 20px 0 5px 0;
 }
 
 h1 a {
@@ -50,9 +56,49 @@ h1 a {
   margin-left: 10px;
   padding: 4px;
   outline: none;
-
   color: cyan;
   background: rgb(6, 46, 2);
   border-radius: 5px;
+}
 
+#menu {
+  width: 95%;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(162, 43, 150), rgb(112, 213, 11));
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu ul li {
+  border-right: 1px solid rgb(248, 241, 241);
+  padding: 0 20px;
+}
+
+#menu ul li:last-child {
+  border-right: none;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: rgb(248, 241, 241);
+  font-size: 17px;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(37, 29, 29);
 }
