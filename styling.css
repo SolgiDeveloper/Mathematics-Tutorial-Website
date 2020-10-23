@@ -52,7 +52,7 @@ h1 a {
   margin-right: 5px;
   border-color: cyan;
   border-radius: 5px;
-  background: white url(/Mathematics\ Tutorial\ Website/images/search.png) right center no-repeat;
+  background: white url(/images/search.png) right center no-repeat;
 }
 
 .submit {
@@ -191,7 +191,7 @@ h1 a {
 }
 
 #leftSidebar ul li {
-  list-style-image: url(/Mathematics\ Tutorial\ Website/images/arrow.png);
+  list-style-image: url(/images/arrow.png);
   padding-left: 5px;
 }
 
@@ -201,7 +201,7 @@ h1 a {
 }
 
 #rightSidebar ul li {
-  list-style-image: url(/Mathematics\ Tutorial\ Website/images/tick.png);
+  list-style-image: url(/images/tick.png);
 }
 
 .clear {
